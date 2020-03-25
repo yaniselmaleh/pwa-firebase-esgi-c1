@@ -38,7 +38,12 @@
     placeholder.style.cssText = `background-image: url(${item.placeholder})`;
 
     // Title
+    const title = card.querySelector('h1');
+    title.textContent = item.content.title;
+   
     // Description
+    const description = card.querySelector('p');
+    description.textContent = item.content.description;
 
     app.appendChild(card);
 

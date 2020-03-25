@@ -39,12 +39,14 @@
 .card main h1 {
   font-weight: 500;
   font-size: 1.2rem;
+  padding: 5%;
 }
 
 .card main p {
   margin-top: 0.25rem;
   font-size: 0.75rem;
   color: #6D6D6D;
+  padding: 3% 5%;
 }
 
 /**
